@@ -31,4 +31,9 @@ $(document).ready(function(){
     nav:true,
     navText : ["<i class='arrow-left'><img src='image/arrow-left-white.png' /></i>","<i class='arrow-right'><img src='image/arrow-right-white.png' /></i>"]
     });
+
+    $('.footer-bottom__arrow').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 1200);
+        return false;
+        });
     });
